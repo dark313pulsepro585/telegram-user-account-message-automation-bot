@@ -166,6 +166,9 @@ Supports thousands of messages per day using event-driven listeners and queued a
 **Resource Efficiency:**  
 Runs on a small server with ~150–250 MB RAM and low CPU; workload is primarily network I/O and rule evaluation.
 
+**Error Handling:**  
+Implements retries with exponential backoff, connection recovery, duplicate suppression, structured logs, and a review queue fallback when errors persist.
+
 <p align="center">
 <a href="https://cal.com/app-pilot-m8i8oo/30min" target="_blank">
  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
@@ -175,5 +178,4 @@ Runs on a small server with ~150–250 MB RAM and low CPU; workload is primarily
  </a>
 </p>
 
-**Error Handling:**  
-Implements retries with exponential backoff, connection recovery, duplicate suppression, structured logs, and a review queue fallback when errors persist.
+
